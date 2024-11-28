@@ -103,6 +103,9 @@
 
 
 /mob/living/proc/ExtinguishMob()
+	var/datum/status_effect/stacking/melting_fire/xeno_fire = has_status_effect(STATUS_EFFECT_MELTING_FIRE)
+	if(xeno_fire)
+		remove_status_effect(STATUS_EFFECT_MELTING_FIRE)
 	if(!on_fire)
 		return FALSE
 	on_fire = FALSE

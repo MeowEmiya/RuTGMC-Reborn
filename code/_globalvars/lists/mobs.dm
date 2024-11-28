@@ -115,6 +115,8 @@ GLOBAL_LIST_INIT(all_xeno_types, list(
 	/mob/living/carbon/xenomorph/scorpion,
 	/mob/living/carbon/xenomorph/facehugger,
 	/mob/living/carbon/xenomorph/spiderling,
+	/mob/living/carbon/xenomorph/pyrogen,
+	/mob/living/carbon/xenomorph/pyrogen/primordial,
 ))
 
 GLOBAL_LIST_EMPTY_TYPED(hellhound_list, /mob/living/carbon/xenomorph/hellhound)
@@ -137,6 +139,7 @@ GLOBAL_LIST_INIT(xeno_types_tier_two, list(
 	/datum/xeno_caste/panther,
 	/datum/xeno_caste/spitter,
 	/datum/xeno_caste/warrior,
+	/datum/xeno_caste/pyrogen,
 ))
 
 GLOBAL_LIST_INIT(xeno_types_tier_three, list(

@@ -85,6 +85,7 @@ GLOBAL_LIST_INIT(playable_squad_icons, list(
 
 GLOBAL_LIST_INIT(playable_icons, list(
 	"behemoth",
+	"pyrogen",
 	"boiler",
 	"bull",
 	"captain",
